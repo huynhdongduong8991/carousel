@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./all.min.js"></script>
+    <title>Carousel</title>
+  </head>
+  <body>
+    <div
+      class="w-full h-screen flex justify-center items-center overflow-hidden"
+    >
+      <div
+        class="carousel-container w-full h-[660px] relative flex justify-center items-center"
+      >
+        <div
+          class="carousels w-[1058px] h-[660px] flex lg:gap-x-[20px] md:gap-x-[15px] sm:items-center sm:gap-x-3 min-[500px]:gap-x-4 min-[360px]:gap-x-2 transition-all duration-1000"
+        >
+          <div
+            class="wrapper-carousel relative flex md:justify-normal md:items-stretch min-[360px]:justify-center min-[360px]:items-center flex-shrink-0 w-full md:h-full sm:h-4/5 xl:p-0 sm:p-5"
+          >
+            <img
+              alt="slider-1"
+              src="./assets/images/research-1.png"
+              width="100%"
+              height="100%"
+              class="carousel-img md:w-full md:h-[620px] sm:w-4/5 sm:h-4/5 min-[360px]:w-[70%] min-[360px]:h-[30%] transition-transform duration-1000 ease"
+            />
+            <div
+              class="caption absolute xl:left-0 xl:right-0 md:left-[19.5px] md:right-[19.5px] md:bottom-0 sm:bottom-7 sm:left-20 sm:right-20 min-[360px]:bottom-[11.75rem] min-[360px]:left-[3.375rem] min-[360px]:right-[3.375rem] flex justify-center items-center bg-white text-body px-4 py-2"
+            >
+              welcome
+            </div>
+          </div>
+          <div
+            class="wrapper-carousel relative flex md:justify-normal md:items-stretch min-[360px]:justify-center min-[360px]:items-center flex-shrink-0 w-full md:h-full sm:h-4/5 xl:p-0 sm:p-5"
+          >
+            <img
+              alt="slider-2"
+              src="./assets/images/research-2.png"
+              width="100%"
+              height="100%"
+              class="carousel-img md:w-full md:h-[620px] sm:w-4/5 sm:h-4/5 min-[360px]:w-[70%] min-[360px]:h-[30%] transition-transform duration-1000 ease"
+            />
+            <div
+              class="caption absolute xl:left-0 xl:right-0 md:left-[19.5px] md:right-[19.5px] md:bottom-0 sm:bottom-7 sm:left-20 sm:right-20 min-[360px]:bottom-[11.75rem] min-[360px]:left-[3.375rem] min-[360px]:right-[3.375rem] flex justify-center items-center bg-white text-body px-4 py-2"
+            >
+              welcome
+            </div>
+          </div>
+          <div
+            class="wrapper-carousel relative flex md:justify-normal md:items-stretch min-[360px]:justify-center min-[360px]:items-center flex-shrink-0 w-full md:h-full sm:h-4/5 xl:p-0 sm:p-5"
+          >
+            <img
+              alt="slider-3"
+              src="./assets/images/research-3.png"
+              width="100%"
+              height="100%"
+              class="carousel-img md:w-full md:h-[620px] sm:w-4/5 sm:h-4/5 min-[360px]:w-[70%] min-[360px]:h-[30%] transition-transform duration-1000 ease"
+            />
+            <div
+              class="caption absolute xl:left-0 xl:right-0 md:left-[19.5px] md:right-[19.5px] md:bottom-0 sm:bottom-7 sm:left-20 sm:right-20 min-[360px]:bottom-[11.75rem] min-[360px]:left-[3.375rem] min-[360px]:right-[3.375rem] flex justify-center items-center bg-white text-body px-4 py-2"
+            >
+              welcome
+            </div>
+          </div>
+        </div>
+        <div
+          class="wrapper-btn xl:w-[1098px] min-[360px]:w-full flex justify-between absolute"
+        >
+          <button
+            class="w-[50px] h-[50px] bg-white flex items-center justify-center p-[10px]"
+          >
+            <i
+              class="fa-sharp fa-regular fa-arrow-left w-full text-intro hover:text-purple-dark-blue"
+            ></i>
+          </button>
+          <button
+            class="w-[50px] h-[50px] bg-white flex items-center justify-center p-[10px]"
+          >
+            <i
+              class="fa-sharp fa-regular fa-arrow-right w-full text-intro hover:text-purple-dark-blue"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./carousel.js"></script>
+</html>
